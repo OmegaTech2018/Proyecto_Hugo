@@ -1,0 +1,125 @@
+*{
+    margin 0;
+    padding: 0;
+}
+
+body{
+    background: url('http://www.demo.amitjakhu.com/login-form/images/bg.png');
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;/*#fff*/
+}
+/*ESTILO CONTENEDOR 2*/
+#contenedor2{
+    width: 90%;
+    margin: 0 auto;
+    background: #D7DBDD;/*2c2c2c*/
+    padding: 30px;
+}
+
+#contenedor2 h1{
+    font-size: 24px;
+}
+
+#contenedor div.tab{
+    display:block; /*AMBAS ETIQUETAS SE VAN A DESPLEGAR EN BLOQUE*/
+    width: 100%; /*ANCHO QUE VAN A OCUPAR 100% (ES TODA LA PANTALLA)*/
+    text-align: center;
+}
+
+/*TERMINA: ESTILO CONTENEDOR 2*/
+
+/*ESTILO DE LOS BOTONES*/
+/***********************************/
+/* Style the tab */
+div.tab {
+    background: #D7DBDD;
+    font-size: 1em; 
+    width: 85%;
+    margin: auto;
+    
+}
+
+div.tab ul{
+    list-style: none;
+}
+
+div.tab li{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.1em;
+    /*position: relative;*/
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background: #FFF;
+    border: 0.1em solid #0F4F8B;
+    border-radius: 0.25em;
+    color: #0F4F8B;
+    display: block;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 1.4em;
+    padding: 0.2em;
+    -ms-transition: all 0.5s ease-in; /*Explorer*/
+    -moz-transition: all 0.5s ease-in; /*Mozilla*/
+    -o-transition: all 0.5s ease-in; /*Opera*/
+    -webkit-transition: all 0.5s ease-in; /*Chrome y Safari*/
+    transition: all 0.5s ease-in;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background: #0F4F8B;
+    border: 0.1em solid #0F4F8B;
+    border-radius: 0 0.5em 0 0.5em;
+    color: #FFF;
+    -ms-transition: all 0.5s ease-out; /*Explorer*/
+    -moz-transition: all 0.5s ease-out; /*Mozilla*/
+    -o-transition: all 0.5s ease-out; /*Opera*/
+    -webkit-transition: all 0.5s ease-out; /*Chrome y Safari*/
+    transition: all 0.5s ease-out;
+}
+
+div.tab button span{
+    margin-right: 10px;
+}
+
+div.tab a{  
+    background: #FFF;
+    border: 0.1em solid #0F4F8B;
+    border-radius: 0.25em;
+    color: #0F4F8B;
+    display: block;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 1.4em;
+    padding: 0.2em;
+    -ms-transition: all 0.5s ease-in; /*Explorer*/
+    -moz-transition: all 0.5s ease-in; /*Mozilla*/
+    -o-transition: all 0.5s ease-in; /*Opera*/
+    -webkit-transition: all 0.5s ease-in; /*Chrome y Safari*/
+    transition: all 0.5s ease-in;   
+}
+
+div.tab a:hover{
+    background: #0F4F8B;
+    border: 0.1em solid #0F4F8B;
+    border-radius: 0 0.5em 0 0.5em;
+    color: #FFF;
+    -ms-transition: all 0.5s ease-out; /*Explorer*/
+    -moz-transition: all 0.5s ease-out; /*Mozilla*/
+    -o-transition: all 0.5s ease-out; /*Opera*/
+    -webkit-transition: all 0.5s ease-out; /*Chrome y Safari*/
+    transition: all 0.5s ease-out;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid black;
+    border-top: none;*/
+}
+/*TERMINA: ESTILO DE LOS BOTONES*/
