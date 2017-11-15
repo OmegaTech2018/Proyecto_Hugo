@@ -1,0 +1,41 @@
+*{
+    margin 0;
+    padding: 0;
+}
+
+body{
+    background: url('http://www.demo.amitjakhu.com/login-form/images/bg.png');
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;/*#fff*/
+}
+
+#contenedor{
+    width: 90%;
+    margin: 0 auto;
+    background: #D7DBDD;/*2c2c2c*/
+    padding: 30px;
+}
+
+#contenedor h1{
+    font-size: 24px;
+}
+
+#contenedor #form{
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #144c83;
+    background: linear-gradient(#144c83,#2da8ea);
+    border: 0;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(#2da8ea,#144c83);
+    color: #e7e7e7;
+}

@@ -1,0 +1,39 @@
+                <p>
+            		Apellido Paterno: <input type="text" id="ap_paterno" name="ap_paterno" required="required">
+            		Apellido Materno: <input type="text" id="ap_materno" name="ap_materno" required="required">
+            		Nombre(s): <input type="text" id="nombre" name="nombre" required="required">
+            	</p>
+            	<p>Edad: <input type="number" id="edad" name="edad" required="required"></p>
+            	<p>Sexo:
+                    <input type="radio" name="sexo" value="M" id="sexo_0" onclick="mostrarReferencia();" /> Masculino
+                    <input type="radio" name="sexo" value="F" id="sexo_1" onclick="mostrarReferencia();" /> Femenino
+                </p>
+                <div id="oculto" style="display: none;">
+                    Embarazo:
+                    <div class="select">
+                        <select name="embarazo" id="embarazo" >
+                            <option value="" selected="selected" disabled="disabled">&nbsp;</option>
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    Primera cita del embarazo:
+                    <div class="select">
+                        <select name="cita_embarazo" id="cita_embarazo" >
+                            <option value="" selected="selected" disabled="disabled">&nbsp;</option>
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>    
+                </div>
+
+            	Recien nacido:
+            		<div class="select">
+                        <select name="recien_nacido" id="recien_nacido" required="">
+                            <option value="" selected="selected" disabled="disabled">&nbsp;</option>
+                            <option value="Si">Si</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+            	</p>
+            	<p>Tel&eacute;fono: <input type="text" id="telefono" name="telefono" ></p>
