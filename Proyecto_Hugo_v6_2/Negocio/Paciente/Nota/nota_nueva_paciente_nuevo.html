@@ -1,0 +1,86 @@
+                <p>
+                    <!-- Apellido paterno -->
+                    <div class="form-group">
+                        <label for="ap_paterno" class="col-md-4 control-label">Apellido paterno:</label>
+                           <div class="col-md-4">
+                             <input type="text" class="form-control" id="ap_paterno" name="ap_paterno" required="required" 
+                                placeholder="Apellido paterno">
+                           </div>
+                    </div>
+                    <!-- Apellido materno -->
+                    <div class="form-group">
+                        <label for="ap_materno" class="col-md-4 control-label">Apellido materno:</label>
+                            <div class="col-md-4">
+                              <input type="text" class="form-control" id="ap_materno" name="ap_materno" required="required" 
+                                placeholder="Apellido materno">
+                            </div>
+                    </div>
+                    <!-- Nombre(s) -->
+                    <div class="form-group">
+                        <label for="inputName" class="col-md-4 control-label">Nombre(s):</label>
+                           <div class="col-md-4">
+                             <input type="text" class="form-control" id="nombre" name="nombre" required="required" 
+                                placeholder="Nombre(s)">
+                           </div>
+                    </div>
+                </p>
+                <!-- Edad -->
+                <div class="form-group">
+                    <label for="inputName" class="col-md-4 control-label">Edad:</label>
+                        <div class="col-md-1">
+                             <input type="number" class="form-control form-control-sm" id="edad" name="edad" required="required">
+                        </div>
+                </div>
+
+                <!-- Sexo -->
+                <p>Sexo:
+                    <input type="radio" name="sexo" value="M" id="sexo_0" onclick="mostrarReferencia();" /> Masculino
+                    <input type="radio" name="sexo" value="F" id="sexo_1" onclick="mostrarReferencia();" /> Femenino
+                </p>
+                <div id="oculto" style="display: none;">
+
+                    <!-- Embarazo: -->
+                    <div class="form-group">
+                        <label for="inputName" class="col-md-4 control-label">Embarazo:</label>
+                            <div class="col-md-1">
+                                <select class="form-control" name="embarazo" id="embarazo" >
+                                    <option value="" selected="selected" disabled="disabled">&nbsp;</option>
+                                    <option value="Si">Sí</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                    </div>
+                    
+                    <!-- Primer cita del embarazo: -->
+                    <div class="form-group">
+                        <label for="inputName" class="col-md-4 control-label">Primer cita del embarazo:</label>
+                            <div class="col-md-1">
+                                <select class="form-control" name="cita_embarazo" id="cita_embarazo" >
+                                    <option value="" selected="selected" disabled="disabled">&nbsp;</option>
+                                    <option value="Si">Sí</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                    </div> 
+
+                </div>
+
+                <!-- Recien nacido: -->
+                <div class="form-group">
+                    <label for="inputName" class="col-md-4 control-label">Recien nacido:</label>
+                        <div class="col-md-1">
+                            <select class="form-control" name="recien_nacido" id="recien_nacido" required="required">
+                               <option value="" selected="selected" disabled="disabled">&nbsp;</option>
+                               <option value="Si">Sí</option>
+                               <option value="No">No</option>
+                            </select>
+                        </div>
+                </div>
+
+                <!-- Teléfono: -->
+                <div class="form-group">
+                    <label for="inputName" class="col-md-4 control-label">Teléfono:</label>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="telefono" name="telefono" placeholder="123 465 789">
+                        </div>
+                </div>

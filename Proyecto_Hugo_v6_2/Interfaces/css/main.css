@@ -1,0 +1,39 @@
+/*
+Expediente Médico Digital.
+Octubre, 2017.
+Estilo principal (Cabecera, pie de página, cuerpo de página).
+*/
+
+html,
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+#cabecera{
+	color: #FFFFFF;
+	height: 100px;
+	background: linear-gradient(to right, #000000, #08088A);
+	padding:10px;
+}
+
+#contenido{
+	margin-top:100px;
+	padding-bottom:250px;
+}
+
+#pie{
+	background:#2f2f2f;
+	width:100%;
+	height:200px; /* Altura del pie de página. */
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding: 20px;
+}
